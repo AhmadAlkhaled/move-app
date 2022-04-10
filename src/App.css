@@ -1,0 +1,123 @@
+.App {
+  text-align: center;
+  height: 100vh;
+  background-color: rgb(53, 53, 53);
+}
+img{
+  width: 100%;
+}
+.wether{
+  width: 50%;
+  max-width:700px ;
+  height: 100vh;
+  background-color: rgb(81, 71, 71);
+  margin:  0 auto;
+  background-image: url('https://www.teahub.io/photos/full/2-22491_iphone-8-wallpaper-clouds.jpg');
+  background-position: center center;
+  background-size: cover;
+  overflow: hidden;
+}
+[type='text']{
+  width: calc(100% - 22px ) ;
+  height: 50px;
+  padding: 10px;
+  font-size: 25px;
+  outline: none;
+}
+[type='text']:focus{
+  border: 2px solid #2056eb;
+  box-shadow: 0px 0px 13px  #2056eb;
+}
+.s{
+  font-size: 23px;
+}
+.wether-info{
+  width: calc( 100% - 40px ) ;
+  height: 80%;
+  padding: 20px;
+  margin: 50px  0px;
+}
+h1{
+  color:white;
+  text-shadow: 0px 0px 13px  black;
+  font-size:50px;
+}
+.temp{
+  width: 80%;
+  max-width: 400px;
+  height:350px;
+  background-color: #2c2b2b98;
+  margin: 0 auto;
+  color:white;
+  font-weight: bolder;
+  border-radius: 20px;
+  display:flex;
+  align-items: center;
+  flex-wrap: wrap;
+  box-shadow: 0px 0px 13px rgb(124, 121, 121);
+}
+.code{
+  color:white;
+  font-size:30px;
+  margin-top:100px;
+}
+.g{
+  width: 100%;
+  font-size: 80px;
+}
+.g1{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  font-size: 30px;
+}
+.m{
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  margin: 0px 0px ;
+  font-weight: bolder;
+}
+.wind{
+  width: calc( 80% - 40px ) ;
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #2c2b2b98;
+  border-radius: 20px;
+  color:white;
+  font-weight: bolder;
+  margin-top: 50px;
+  box-shadow: 0px 0px 13px rgb(124, 121, 121);
+  padding: 20px;
+}
+h2{
+  font-size: 30px;
+  margin: 0;
+  margin-bottom: 15px;
+}
+.w{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  font-size: 30px;
+}
+.icon{
+  display: block;
+  width: 150px;
+  height: 150px;
+}
+.g{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.f{
+  width: 100%;
+  text-align: center;
+  font-size: 25px;
+}
+@media (max-width: 568px) {
+  .wether{
+    width: 100%;
+  }
+}
